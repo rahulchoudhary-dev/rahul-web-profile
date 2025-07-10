@@ -15,7 +15,7 @@ export const experiences: iExperiences[] = [
     title: 'Senior Full Stack Developer',
     company: 'GAMMASTACK',
     location: 'Remote',
-    period: 'Aug 2024 - Present',
+    period: 'Aug-2024 - Present',
     duration: '2+ years',
     description:
       'Leading development of enterprise-level applications and AI automation workflows. Architected scalable systems serving 10,000+ users with 99.9% uptime.',
@@ -48,12 +48,12 @@ export const experiences: iExperiences[] = [
     title: 'Full Stack Developer',
     company: 'Encred Analytics PVT LTD',
     location: 'Remote',
-    period: 'Sep 2023 - June-2024',
+    period: 'Oct-2023 - Aug-2024',
     duration: '1 years',
     description:
       'Developed and maintained multiple client projects ranging from e-commerce platforms to business management systems. Focused on creating robust backend APIs and intuitive user interfaces.',
     achievements: [
-      'Delivered 15+ successful projects on time and within budget',
+      'Delivered successful project on time and within budget',
       'Integrated 3rd party APIs for payment processing and analytics',
       'Implemented CI/CD pipelines reducing deployment time by 50%',
       'Mentored junior developers and conducted code reviews',
@@ -64,12 +64,12 @@ export const experiences: iExperiences[] = [
     title: 'Full Stack Developer',
     company: 'Santophy Infotech PVT LTD',
     location: 'Hybrid',
-    period: 'Jan 2021 - Aug-2023',
+    period: 'Jan-2021 - Aug-2023',
     duration: '2 years',
     description:
       'Developed and maintained multiple client projects ranging from e-commerce platforms to business management systems. Focused on creating robust backend APIs and intuitive user interfaces.',
     achievements: [
-      'Delivered 5+ successful projects on time and within budget',
+      'Delivered 4+ successful projects on time and within budget',
       'Integrated 3rd party APIs for payment processing and analytics',
       'Implemented CI/CD pipelines reducing deployment time by 50%',
       'Mentored junior developers and conducted code reviews',

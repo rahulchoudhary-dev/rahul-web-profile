@@ -119,7 +119,7 @@ export const About: React.FC = () => {
               </div>
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-purple-600 dark:text-purple-400 mb-2">
-                  <CountUp end={50} duration={5} />+
+                  <CountUp end={150} duration={5} />+
                 </div>
                 <div className="text-gray-600 dark:text-gray-300">Automation Workflows</div>
               </div>

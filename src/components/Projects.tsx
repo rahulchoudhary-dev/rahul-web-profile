@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
 import React from 'react';
 import { projects } from '../data/projects';
 
@@ -104,7 +103,7 @@ export const Projects: React.FC = () => {
                   <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
                     <strong>Role:</strong> {project.role}
                   </p>
-                  <div className="flex space-x-4">
+                  {/* <div className="flex space-x-4">
                     <motion.a
                       href={project.demoUrl}
                       whileHover={{ scale: 1.05 }}
@@ -123,7 +122,7 @@ export const Projects: React.FC = () => {
                       <Github size={16} />
                       <span>Source Code</span>
                     </motion.a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </motion.div>

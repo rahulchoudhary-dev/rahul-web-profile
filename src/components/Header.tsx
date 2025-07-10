@@ -5,7 +5,7 @@ import { navItems } from '../data/navItems';
 import { useTheme } from '../hooks/useTheme';
 
 import useToast from '../hooks/useToast';
-import resumePdf from '../public/rahul_resume.pdf'; // adjust the path as needed
+import resumePdf from '/src/assets/Rahul_MERN_AI_Resume.pdf'; // adjust the path as needed
 
 export const Header: React.FC = () => {
   const { theme, toggleTheme } = useTheme();

@@ -10,6 +10,7 @@ import {
   UserCheck,
   UtensilsCrossed,
 } from 'lucide-react';
+import { carServiceProject, genAIProject } from '../assets';
 
 export interface iProject {
   title: string;
@@ -139,8 +140,7 @@ export const projects: iProject[] = [
     description:
       'Developed a unified automotive service application with a strong focus on user experience, team collaboration, and full deployment workflows.',
     icon: CarFront,
-    image:
-      'https://images.pexels.com/photos/448045/pexels-photo-448045.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: carServiceProject,
     technologies: ['React.js', 'Redux Toolkit', 'Node.js', 'Next.js', 'Material UI'],
     role: 'Tech Lead & Full Stack Developer',
     highlights: [
@@ -150,6 +150,7 @@ export const projects: iProject[] = [
     ],
     demoUrl: '#',
     githubUrl: '#',
+    // https://images.pexels.com/photos/4489715/pexels-photo-4489715.jpeg
   },
   {
     title: 'HRMS',
@@ -171,9 +172,19 @@ export const projects: iProject[] = [
     description:
       'Created an advanced AI/ML-powered tool for image analysis with robust security and scalable architecture.',
     icon: Camera,
-    image:
-      'https://images.pexels.com/photos/11035371/pexels-photo-11035371.jpeg?auto=compress&cs=tinysrgb&w=600',
-    technologies: ['React.js', 'Typescript', 'Tailwind CSS', 'API', 'AWS', 'Microsoft SSO'],
+    image: genAIProject,
+    technologies: [
+      'React.js',
+      'Typescript',
+      'Tailwind CSS',
+      'API',
+      'AWS',
+      'Microsoft SSO',
+      'OpenAI API',
+      'Image Recognition Models',
+      'Computer Vision',
+      'Natural Language Processing (NLP)',
+    ],
     role: 'Lead Frontend Developer',
     highlights: [
       'AI-powered image recognition',

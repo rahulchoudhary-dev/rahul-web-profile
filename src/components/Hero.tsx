@@ -40,7 +40,7 @@ export const Hero: React.FC = () => {
             </p>
             <p className="text-lg text-gray-500 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
               Crafting scalable backend systems and intelligent automation workflows with{' '}
-              <span className="font-semibold text-blue-600 dark:text-blue-400">5+ years</span> of
+              <span className="font-semibold text-blue-600 dark:text-blue-400">4+ years</span> of
               experience. Specializing in building AI-powered applications that transform business
               processes.
             </p>
